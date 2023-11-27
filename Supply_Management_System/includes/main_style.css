@@ -1,0 +1,266 @@
+* {
+	
+	margin:0px;
+	padding:0px;
+}
+body {
+	width:1200px;
+	margin:auto;
+	
+}
+li {
+	list-style:none;
+	margin:0px;
+}
+a {
+	text-decoration:none;
+}
+*:focus {
+	outline:1px solid #009688;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+	background:#009688;
+}
+
+::selection {
+    color: white;
+	background:#009688;
+}
+/* Login Form Design starts here. */
+.login-form li {
+	
+}
+.main{
+	background-color:#000000BF;
+	margin-top:90px;
+	margin-left: 350px;
+
+	width:400px;
+	height:400px;
+	padding: 20px 20px 100px 20px ;
+	
+}
+.login-box {
+	text-align: center;
+	background-color: rgb(152, 223, 175 );
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+.login-box h1 {
+	color: white;
+	
+	
+}
+label {
+	
+}
+
+.account-login{
+	margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+.label-block {
+	font-size: 20px;
+    color: #6C6C6C;
+    font-weight: bold;
+    letter-spacing: 1px;
+	
+	margin-top: 30px;
+
+}
+.input-box {
+	font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+	margin-top: 20px;
+
+	
+
+
+}
+.input-box input {
+	padding: 10px 70px 10px 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 20px;
+	text-indent: 2px;
+}
+
+.input-box textarea {
+	
+}
+.input-box select {
+
+	
+}
+.select-box{
+	padding: 7px 80px 7px 84px;
+	border: none;
+	border-radius: 3px;
+	font-size: 20px;
+	font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+
+}
+.submit_button {
+
+    display: block;
+	padding: 20px 135px 20px 135px;
+	border: none;
+	border-radius: 10px;
+	background-color: #E50914;
+	color:white;
+	font-size: 15px;
+	font-weight:bolder;
+	margin-top: 130px;
+	margin-left: 40px;
+	
+}
+.submit_button:hover,.submit_button:focus {
+	
+}
+.error_message {
+	color:red;
+	
+}
+.confirm_message {
+	
+}
+
+
+/* Login Form Design ends here. */
+
+
+
+/* Design Admin page starts here. */
+header {
+	background-color:#009688;
+	height:100px;
+	margin:0px auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h1 {
+	text-align:center;
+	line-height:100px;
+	
+	color:white;
+	font-size:60px;
+	font-weight:normal;
+}
+nav {
+	margin:0px;
+	text-align:center;
+	background-color:#EEEEEE;
+	border-bottom:2px solid #ccc;
+}
+nav a {
+	color:black;
+	display:inline-block;
+	padding:10px 20px;
+}
+nav a:hover {
+	background-color:#009688;
+	color:white;
+}
+.table_mainWrapper {
+	width:1200px;
+	border-spacing:0px;
+}
+#td_aside {
+	background-color:#EEEEEE;
+	vertical-align:top;
+	width:200px;
+	border-right:2px solid #ccc;
+}
+aside a {
+	color:black;
+	display:block;
+	padding:10px 20px;
+}
+aside a:hover {
+	background-color:#009688; /* #d6d6d6 */
+	color:white;
+}
+#td_section {
+	vertical-align:top;
+}
+.userInfoBar {
+	width:1000px;
+	background-color:#f4f4f4;
+}
+section {
+	width:1000px;
+	padding:10px;
+	padding-bottom:40px;
+}
+section h1 {
+	margin-bottom:10px;
+	font-weight:normal;
+	color:#333;
+	font-size: 26px;
+}
+section p {
+	width:800px;
+	line-height: 25px;
+}
+article {
+	margin-top:20px;
+	margin-bottom:50px;
+}
+article h2 {
+	margin-bottom:5px;
+	font-weight:normal;
+	color:#333;
+	font-size: 20px;
+}
+table {
+	border-collapse: collapse;
+}
+.table_displayData td, .table_displayData th {
+	border:1px solid #ddd;
+	padding: 8px 10px;
+	text-align: left;
+}
+.table_displayData th {
+	background-color:#eee;
+	color:#333;
+}
+.table_invoiceFormat th {
+	background-color:#eee;
+	color:#333;
+	padding: 7px 25px;
+}
+.table_invoiceFormat tr {
+	border:none;
+}
+.table_invoiceFormat td,.table_invoiceFormat tr {
+	padding: 5px 25px;
+	text-align: left;
+}
+.table_infoFormat {
+	margin:20px 5px 25px;
+}
+.table_infoFormat  td {
+	padding:5px 5px 0px 0px;
+}
+.table_infoFormat  td:first-child {
+	font-weight:bold;
+}
+footer {
+	clear:both;
+	padding:20px;
+	font-size:20px;
+	background-color:#009688; /* #009688 */
+	color:white;
+	text-align:center;
+}
+/* Design of Admin page ends here. */
+
+
+/* code for ADD distributer */
+
+
